@@ -24,9 +24,10 @@ BoardMember.prototype.sayHi = function () {
   return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
 }
 
-BoardMember.prototype.homeState = function () {
+BoardMember.prototype.printHomeState = function () {
   return `${homeState}`;
 }
 
 let sue = new BoardMember("Sue", "NY", "sales")
-console.log(sue.homeState)
+//console.log(sue.homeState)
+sue.home
