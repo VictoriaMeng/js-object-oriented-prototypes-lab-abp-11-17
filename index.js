@@ -4,4 +4,6 @@ let BoardMember = function (name, homeState, training) {
   this.training = training;
 }
 
-Board.prototype
+Board.prototype.veto = function () {
+  
+}
