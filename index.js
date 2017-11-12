@@ -25,4 +25,4 @@ BoardMember.prototype.sayHi = function () {
 }
 
 let sue = new BoardMember("Sue", "NY", "sales")
-console.log(sue)
+console.log(sue.homeState)
