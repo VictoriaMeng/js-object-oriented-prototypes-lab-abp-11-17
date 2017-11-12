@@ -24,4 +24,4 @@ BoardMember.prototype.sayHi = function () {
   return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
 }
 
-let sue = new BoardMember("Sue", "NY", "sales")
+// let sue = new BoardMember("Sue", "NY", "sales")
