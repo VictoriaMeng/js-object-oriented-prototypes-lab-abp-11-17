@@ -1,6 +1,6 @@
-let BoardMember = function (name, homeState, training) {
+let BoardMember = function (name, homes]tate, training) {
   this.name = name;
-  this.homeState = homeState;
+  this.homestate = homestate;
   this.training = training;
 }
 
