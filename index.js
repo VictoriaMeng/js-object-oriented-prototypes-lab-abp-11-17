@@ -3,3 +3,5 @@ let BoardMember = function (name, homeState, training) {
   this.homeState = homeState;
   this.training = training;
 }
+
+Board.prototype
