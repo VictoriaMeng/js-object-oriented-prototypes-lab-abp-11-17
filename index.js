@@ -25,7 +25,7 @@ BoardMember.prototype.sayHi = function () {
 }
 
 BoardMember.prototype.homeState = function () {
-  return `${homeState};`
+  return `${homeState}`;
 }
 
 let sue = new BoardMember("Sue", "NY", "sales")
