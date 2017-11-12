@@ -1,6 +1,6 @@
-let BoardMember = function (name, homestate, training) {
+let BoardMember = function (name, homeState, training) {
   this.name = name;
-  this.homestate = homestate;
+  this.homeState = homeState;
   this.training = training;
 }
 
@@ -29,4 +29,3 @@ BoardMember.prototype.printHomeState = function () {
 }
 
 let sue = new BoardMember("Sue", "NY", "sales")
-
