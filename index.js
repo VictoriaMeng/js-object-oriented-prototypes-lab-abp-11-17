@@ -30,4 +30,4 @@ BoardMember.prototype.printHomeState = function () {
 
 let sue = new BoardMember("Sue", "NY", "sales")
 //console.log(sue.homeState)
-sue.home
+sue.printHomeState
